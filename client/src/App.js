@@ -106,9 +106,9 @@ class App extends Component {
               </table>
             </div>
             {/* <div className="clearfix"></div> */}
-            <div className="input p-1">
-              <form id="orm" className="h-100 w-100" action="">
-                <input id="uery" className="h-100 w-100" type="text" />
+            <div className="chat-input p-1">
+              <form id="chatForm" className="h-100 w-100" action="">
+                <input id="query" className="h-100 w-100" type="text" />
               
               </form>
               <div className="mic-icon">
