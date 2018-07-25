@@ -50,18 +50,17 @@ h4 { font-size: 1.2rem; }
   h4 { font-size: 1.5rem; }
 }
 
-.header-img-logo {
-  position: absolute;
-  top: 10px;
-  left: 30px;
-  width: 80px;
+/* baloon logo mobile */
+.header-img-logo { position: absolute; top: 5px; left: 20px; width: 60px; }
+/* baloon logo: desktop */
+@media screen and (min-width: 900px){
+  .header-img-logo { top: 10px; left: 30px; width: 80px; }
 }
 
 .header-text-logo {
-  margin: 14px 80px 6px; 
+  padding: 14px 80px 6px; 
   height: 80px;
 }
-
 .blue-bar {
   background: rgb(63, 153, 218);
 }
@@ -72,4 +71,22 @@ h4 { font-size: 1.2rem; }
   margin: .4px;
   padding: .4px;
 }
+/* outer div: mobile */
+.chat-container {
+  width: 320px;
+  margin: 0 auto; 
+}
+/* outer div: desktop */
+@media screen and (min-width: 900px){
+  /* .chat-container { width: 480px; } */
+}
 
+.chat-result {
+  box-sizing: border-box;
+  height: 320px;
+  overflow: scroll;
+}
+
+.chat-input {
+  height: 60px;
+}
