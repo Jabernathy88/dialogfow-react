@@ -8,86 +8,95 @@ class App extends Component {
       <div id="content">
 
         {/* temp header */}
-        <header className="w-100">
-          <img className="header-img-logo" src="./images/helium-logo.png" alt="" />
+        <header>
+          <div className="w-100">
+            <img className="header-img-logo" src="./images/helium-logo.png" alt="" />
+          </div>
+          <img className="header-text-logo" src="./images/helium-text-logo.png" alt=""/>
+          <div className="blue-bar py-2 text-center w-100">
+            <h4>( Dialogflow React Mockup )</h4>
+          </div>
         </header>
-        <img className="header-text-logo" src="./images/helium-text-logo.png" alt=""/>
-        <div className="blue-bar py-2 text-center w-100">
-          <h4>( Dialogflow React Mockup )</h4>
-        </div>
 
         {/* <Main /> */}
         <div className="container-fluid pt-2">
           {/* <p><strong>Meet our new intern. Say hi!</strong></p>       */}
 
-          <div className="chat chat-container">
-            <div className="chat chat-header">
-              <div className="chat chat-header-wrapper w-100">
-                <div className="chat chat-icon">
-                  {/* img */}
+          <div className="chat-container bg-white">
+            <div className="chat-header">
+              <div className="chat-header-wrapper w-100 d-flex align-items-center text-white">
+                <div className="chat-icon text-center d-inline-block d-inline-block m-4">
+                  <img className="chat-img-logo" src="./images/helium-white-icon.png" alt="" />
                 </div>
-                <div className="chat chat-title">Katie</div>
-                <div className="chat chat-subtitle">Marketing Intern</div>
+                
+                <div className="d-inline-block">
+                  <div className="chat-title">
+                    <h4 className="font-weight-normal p-0">Katie</h4>
+                  </div>
+                  <div className="chat-subtitle font-weight-light">
+                    Marketing Intern
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div className="chat chat-top-nav text-right">
-              Powered by Helium
+            <div className="chat-top-nav text-right p-2 small">
+                <span className="text-white-50">POWERED BY </span><strong className="text-light">HELIUM</strong>
             </div>
 
-            <div className="chat chat-result w-100">
+            <div className="chat-result w-100">
               {/* main content */}
-              <table className="chat chat-table">
+              <table className="chat-table">
                 <tbody>
                   <tr>
-                    <td id="chatResult">
-                      <div className="chat user-request">
+                    <td id="result" className="clearfix">
+                      <div className="user-request float-left">
                         Hello. Namaste!
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response float-right">
                         Hi! My name is Katie, the new Helium Services Intern. What's your name?
                       </div>
-                      <div className="chat user-request">
+                      <div className="user-request">
                         Jeremy.
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response">
                         Thank you Jeremy. Now, could I get the best phone number where we can follow-up with you, and maybe an email address?
                       </div>
-                      <div className="chat user-request">
+                      <div className="user-request">
                         404 444 4444
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response">
                         Thank you for that. Now tell me about this amazing idea we can build together.
                       </div>
-                      <div className="chat user-request">
+                      <div className="user-request">
                         I'm thinking a mobile app with floating action buttons. Would that be okay?
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response">
                         Let me pass you along to Joe for more details. Just a moment ...!
                       </div>
 
-                      <div className="chat user-request">
+                      <div className="user-request">
                         Hello. Namaste!
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response">
                         Hi! My name is Katie, the new Helium Services Intern. What's your name?
                       </div>
-                      <div className="chat user-request">
+                      <div className="user-request">
                         Jeremy.
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response">
                         Thank you Jeremy. Now, could I get the best phone number where we can follow-up with you, and maybe an email address?
                       </div>
-                      <div className="chat user-request">
+                      <div className="user-request">
                         404 444 4444
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response">
                         Thank you for that. Now tell me about this amazing idea we can build together.
                       </div>
-                      <div className="chat user-request">
+                      <div className="user-request">
                         I'm thinking a mobile app with floating action buttons. Would that be okay?
                       </div>
-                      <div className="chat server-response">
+                      <div className="server-response">
                         Let me pass you along to Joe for more details. Just a moment ...!
                       </div>
 
@@ -97,12 +106,12 @@ class App extends Component {
               </table>
             </div>
             {/* <div className="clearfix"></div> */}
-            <div className="chat-input p-1">
-              <form id="chatForm" className="h-100 w-100" action="">
-                <input id="chatQuery" className="h-100 w-100" type="text" />
+            <div className="input p-1">
+              <form id="orm" className="h-100 w-100" action="">
+                <input id="uery" className="h-100 w-100" type="text" />
               
               </form>
-              <div className="chat mic-icon">
+              <div className="mic-icon">
                 {/* <i className="fa"></i> */}
               </div>
             
