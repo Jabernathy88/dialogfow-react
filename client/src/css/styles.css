@@ -1,8 +1,7 @@
 /* Jeremy's starter css */
 
-@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css';
-@import 'https://fonts.googleapis.com/css?family=Roboto|Noto+Sans';
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
 /* defaults */
 html, body, #root, #content {
@@ -24,7 +23,7 @@ h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
 /* responsive text sizes */
 html {
-  font-family: 'Roboto', 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   background: rgb(255,255,255); 
 }
@@ -50,3 +49,27 @@ h4 { font-size: 1.2rem; }
   h3 { font-size: 1.8rem; }
   h4 { font-size: 1.5rem; }
 }
+
+.header-img-logo {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 80px;
+}
+
+.header-text-logo {
+  margin: 14px 80px 6px; 
+  height: 80px;
+}
+
+.blue-bar {
+  background: rgb(63, 153, 218);
+}
+
+/* chat containers */
+.chat {
+  border: .4px solid gray;
+  margin: .4px;
+  padding: .4px;
+}
+
