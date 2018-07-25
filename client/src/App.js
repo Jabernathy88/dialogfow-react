@@ -44,59 +44,59 @@ class App extends Component {
                 <span className="text-white-50">POWERED BY </span><strong className="text-light">HELIUM</strong>
             </div>
 
-            <div className="chat-result w-100">
+            <div className="chat-result w-100 pt-4">
               {/* main content */}
               <table className="chat-table">
                 <tbody>
                   <tr>
-                    <td id="result" className="clearfix">
+                    <td id="result" className="">
                       <div className="user-request float-left">
                         Hello. Namaste!
                       </div>
                       <div className="server-response float-right">
                         Hi! My name is Katie, the new Helium Services Intern. What's your name?
                       </div>
-                      <div className="user-request">
+                      <div className="user-request float-left">
                         Jeremy.
                       </div>
-                      <div className="server-response">
+                      <div className="server-response float-right">
                         Thank you Jeremy. Now, could I get the best phone number where we can follow-up with you, and maybe an email address?
                       </div>
-                      <div className="user-request">
+                      <div className="user-request float-left">
                         404 444 4444
                       </div>
-                      <div className="server-response">
+                      <div className="server-response float-right">
                         Thank you for that. Now tell me about this amazing idea we can build together.
                       </div>
-                      <div className="user-request">
+                      <div className="user-request float-left">
                         I'm thinking a mobile app with floating action buttons. Would that be okay?
                       </div>
-                      <div className="server-response">
+                      <div className="server-response float-right">
                         Let me pass you along to Joe for more details. Just a moment ...!
                       </div>
 
-                      <div className="user-request">
+                      <div className="user-request float-left">
                         Hello. Namaste!
                       </div>
-                      <div className="server-response">
+                      <div className="server-response float-right">
                         Hi! My name is Katie, the new Helium Services Intern. What's your name?
                       </div>
-                      <div className="user-request">
+                      <div className="user-request float-left">
                         Jeremy.
                       </div>
-                      <div className="server-response">
+                      <div className="server-response float-right">
                         Thank you Jeremy. Now, could I get the best phone number where we can follow-up with you, and maybe an email address?
                       </div>
-                      <div className="user-request">
+                      <div className="user-request float-left">
                         404 444 4444
                       </div>
-                      <div className="server-response">
+                      <div className="server-response float-right">
                         Thank you for that. Now tell me about this amazing idea we can build together.
                       </div>
-                      <div className="user-request">
+                      <div className="user-request float-left">
                         I'm thinking a mobile app with floating action buttons. Would that be okay?
                       </div>
-                      <div className="server-response">
+                      <div className="server-response float-right">
                         Let me pass you along to Joe for more details. Just a moment ...!
                       </div>
 

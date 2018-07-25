@@ -109,8 +109,22 @@ div.chat-icon {
   height: 60px;
 }
 
+td#result {
+  vertical-align: bottom;
+}
+
+/* chat bubbles */
+.user-request, .server-response {
+  width: 90%;
+  border-radius: 2px;
+  margin: 12px 4px 2px;
+  padding: 6px 2px 2px;
+}
 .user-request {
-  margin: 10px 5px 2px;
-  padding: 5px;
+  padding-right: 6px;
   background: rgba(48, 188, 237, .15);
+}
+.server-response {
+  padding-left: 6px;
+  background: rgba(48, 188, 237, .35);
 }
