@@ -2,6 +2,9 @@
 
 @import 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+@import 'https://use.fontawesome.com/releases/v5.2.0/css/all.css';
+
 
 /* defaults */
 html, body, #root, #content {
@@ -72,6 +75,10 @@ header {
   background: rgb(63, 153, 218);
 }
 
+.iframe-demo {
+  padding: 55px 5px;
+}
+
 /* chat containers */
 .chat-container {
   width: 320px;
@@ -101,16 +108,20 @@ div.chat-icon {
 }
 
 .chat-result {
-  box-sizing: border-box;
   height: 320px;
   overflow: scroll;
 }
-.chat-input {
+div.chat-input {
   border-top: 0.6px solid lightgrey;
   height: 60px;
 }
+form#chatForm {
+  width: 89%;
+}
+
 input#query {
-  border: none;
+  background: #fff;
+  border: transparent;
 }
 
 td#result {
